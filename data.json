@@ -1,0 +1,22 @@
+[
+    {
+        "marca" : "Chery",
+        "modelo" : ["Tiggo 8 Pro", "Tiggo 2"]
+    },
+    {
+        "marca" : "Chevrolet",
+        "modelo" : ["Sail", "Onix Turbo"]
+    },
+    {
+        "marca" : "Ford",
+        "modelo" : ["Territory", "Escape"]
+    },
+    {
+        "marca" : "Nissan",
+        "modelo" : ["Versa", "Kicks"]
+    },
+    {
+        "marca" : "Opel",
+        "modelo" : ["Vivaro", "Corsa"]
+    }
+]

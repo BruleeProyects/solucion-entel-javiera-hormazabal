@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solución Entel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bodyTabla">
+
+    <header>
+        <img src="images/logo-entel.png" alt="logo_entel" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Formulario</a></li>
+                <li><a href="listaFormulario.html" class="listaNav">Lista Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mainTabla">
+
+        <h1 class="tituloTabla">Lista formulario</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the bed industry's standard dummy text ever since.
+        </p>
+        <table>
+            <caption class="sinDatos" id="sinDatos">No hay datos para mostrar</caption>
+            <thead id="tableHead">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Rut <br /> vendedor</th>
+                    <th>Patente <br />vehículo</th>
+                    <th>Marca <br /> vehículo</th>
+                    <th>Modelo <br /> vehículo</th>
+                    <th>Color <br /> vehículo</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="tablaVehiculos">
+            </tbody>
+        </table>
+        <div id="registros"></div>
+    </main>
+
+    <script src="js/mostrarDatos.js"></script>
+
+</body>
+
+</html>
